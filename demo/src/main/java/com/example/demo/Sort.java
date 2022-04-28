@@ -4,12 +4,8 @@ public class Sort {
 
 	public static void main(String[] args) {
 
-		int[] array=new int[4];
+		int[] array=new int[] {10,20,1,5,9,4,3};
 		int temp=0;
-		array[0]=1;
-		array[1]=4;
-		array[2]=7;
-		array[3]=3;
 		
 		for(int i=0;i<array.length;i++) {
 			for(int j=i+1;j<array.length;j++) {
